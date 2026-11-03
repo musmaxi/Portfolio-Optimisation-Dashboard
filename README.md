@@ -108,4 +108,4 @@ below the GMV. `tests/test_against_excel.py` reproduces this bug in
 - **Data window.** The bundled data starts in July 2021, so the 2008 and COVID windows need a yfinance download from an earlier start date. META only listed in May 2012, so 2008 can only be modelled with the hypothetical stress test.
 - **Small VaR differences from Excel.** The Python version aggregates portfolio returns in simple-return space, then converts back to log returns. The Excel model weights log returns directly, so VaR figures differ slightly (by about 0.1 percentage points).
 
-*For educational purposes only — not investment advice.*
+*For educational purposes only, not investment advice.*
